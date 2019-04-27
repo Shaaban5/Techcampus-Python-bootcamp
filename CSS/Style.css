@@ -1,0 +1,24 @@
+body {
+	color: orange;
+}
+p {
+	color: red;
+	font-size: 15px
+}
+h1 {
+	color: blue;
+	text-align: center;
+}
+h2, h3, h4 {
+	color: yellow;
+}
+#idh1 {
+	color: grey;
+	text-align: right;
+	border: 5px solid red; 
+}
+
+.content{
+	color: green;
+	font-size: 30px
+}
