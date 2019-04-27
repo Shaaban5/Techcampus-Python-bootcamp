@@ -1,0 +1,41 @@
+﻿git init
+
+git config --global user.name Ahmed
+git config --global user.email Ahmed_shaaban5@hotmail.com
+to confirm: git config user.name or user.email
+
+git checkout filename (to discard changes that have been made in file in modified level only)
+
+git add filename or git add . (to add files into stage level to be traking)
+git reset HEAD filename (to reset the file back from staging to modified level)
+
+git commit -m " description "
+after commit : 
+git checkout sha# or checkout master (will move head to selected sha# without ereasing any data)
+git reset sha# (remove all commits to the selected sha - return back to modified level for the Sha before the selected) 
+
+git log
+git log --oneline (shows one line only for each sha)
+
+git branch -a (list of branch)
+git branch new_name (create new branch)
+git checkout branch_name (switch to branch)
+
+git checkout -b branchname (ceate new branch and switch to it)
+
+at master: 
+git merge branch_name (to be merged into the branch we stand at)
+
+git remote add origin http:// (to add githup link)
+git remot rm origin (to delete connection with current githup)
+or
+git clone http:// (to make a clone of a githup repo)
+
+git push origin master (in case using 'git push -u origin master' then each time to push changes we wirte only 'git push')
+
+git pull origin master (pull all updates from github)
+
+
+
+
+
